@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VegaMuse Admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <nav class="navbar">
+    <button id="backToAdmin" class="back-btn">← Back</button>
+    <span class="nav-logo">VegaMuse Admin</span>
+  </nav>
+
+  <div class="main">
+    <div class="container">
+    <h1>Upload Movie</h1>
+
+    <!-- Search Section -->
+    <div class="section">
+      <h2>Edit Movie by ID</h2>
+      <div class="search-movie">
+        <input type="text" id="movieIdSearch" placeholder="Enter Movie ID">
+        <button type="button" id="searchMovieBtn">Search</button>
+      </div>
+    </div>
+
+    <form id="uploadForm" enctype="multipart/form-data">
+      <!-- Images Section -->
+      <div class="section">
+        <h2>Images</h2>
+        <div class="replace-images">
+          <input type="checkbox" id="replaceImages" checked>
+          <label for="replaceImages">Want to Upload/Re-upload images!</label>
+        </div>
+        <div class="grid">
+          <div>
+            <label>Poster</label>
+            <input type="file" name="poster" id="posterInput" accept=".png, .jpg, .jpeg">
+          </div>
+          <div>
+            <label>Movie Screenshots</label>
+            <input type="file" name="images" id="screenshotsInput" accept=".png, .jpg, .jpeg" multiple>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie Info Section -->
+      <div class="section">
+        <h2>Movie Information</h2>
+        <div class="grid">
+          <input type="text" name="title" placeholder="Movie Title" class="full" autocomplete="on" autocorrect="on" required>
+          <input type="number" name="year" placeholder="Release Year" autocomplete="on" autocorrect="on">
+          <input type="text" id="uploadTimeDisplay" placeholder="Upload Time" disabled>
+          <input type="hidden" name="uploadTime" id="uploadTime">
+          <input type="text" name="genre" placeholder="Genre (Action, Drama)" autocomplete="on">
+          <select name="edition" autocomplete="on">
+            <option value="Standard">Standard</option>
+            <option value="Extended">Extended</option>
+            <option value="Director's Cut">Director's Cut</option>
+            <option value="IMAX">IMAX</option>
+            <option value="Remastered">Remastered</option>
+            <option value="Collector's Edition">Collector's Edition</option>
+            <option value="Uncut">Uncut</option>
+            <option value="Ultimate Edition">Ultimate Edition</option>
+            <option value="Anniversary Edition">Anniversary Edition</option>
+          </select>
+          <select name="dualAudio" autocomplete="on">
+            <option value="false">Single Audio</option>
+            <option value="true">Dual Audio</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Video Qualities Section -->
+      <div class="section">
+        <h2>Video Qualities</h2>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="qualities" value="480p">480p</label>
+          <label><input type="checkbox" name="qualities" value="360p">360p</label>
+          <label><input type="checkbox" name="qualities" value="720p">720p</label>
+          <label><input type="checkbox" name="qualities" value="1080p">1080p</label>
+          <label><input type="checkbox" name="qualities" value="4K">4K</label>
+          <label><input type="checkbox" name="qualities" value="Blue Ray">Blue Ray</label>
+        </div>
+      </div>
+
+      <!-- Languages Section -->
+      <div class="section">
+        <h2>Languages</h2>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="language" value="English">English</label>
+          <label><input type="checkbox" name="language" value="Hindi">Hindi</label>
+          <label><input type="checkbox" name="language" value="Tamil">Tamil</label>
+          <label><input type="checkbox" name="language" value="Telugu">Telugu</label>
+          <label><input type="checkbox" name="language" value="Malayalam">Malayalam</label>
+          <label><input type="checkbox" name="language" value="Kannada">Kannada</label>
+        </div>
+      </div>
+
+      <!-- Download Links Section -->
+      <div class="section">
+        <h2>Download Links</h2>
+
+        <div class="download-box">
+          <h3>Download Button 1</h3>
+          <div class="download-grid">
+            <input type="text" class="btnname" name="btn1name" placeholder="Quality 1...">
+            <input type="text" class="btnsize" name="btn1size" placeholder="Size 1...">
+            <input type="text" class="btnlink" name="btn1link" placeholder="https://...">
+          </div>
+        </div>
+
+        <div class="download-box">
+          <h3>Download Button 2</h3>
+          <div class="download-grid">
+            <input type="text" class="btnname" name="btn2name" placeholder="Quality 2...">
+            <input type="text" class="btnsize" name="btn2size" placeholder="Size 2...">
+            <input type="text" class="btnlink" name="btn2link" placeholder="https://...">
+          </div>
+        </div>
+
+        <div class="download-box">
+          <h3>Download Button 3</h3>
+          <div class="download-grid">
+            <input type="text" class="btnname" name="btn3name" placeholder="Quality 3...">
+            <input type="text" class="btnsize" name="btn3size" placeholder="Size 3...">
+            <input type="text" class="btnlink" name="btn3link" placeholder="https://...">
+          </div>
+        </div>
+
+        <div class="download-box">
+          <h3>Download Button 4</h3>
+          <div class="download-grid">
+            <input type="text" class="btnname" name="btn4name" placeholder="Quality 4...">
+            <input type="text" class="btnsize" name="btn4size" placeholder="Size 4...">
+            <input type="text" class="btnlink" name="btn4link" placeholder="https://...">
+          </div>
+        </div>
+
+        <div class="download-box">
+          <h3>Download Button 5</h3>
+          <div class="download-grid">
+            <input type="text" class="btnname" name="btn5name" placeholder="Quality 5...">
+            <input type="text" class="btnsize" name="btn5size" placeholder="Size 5...">
+            <input type="text" class="btnlink" name="btn5link" placeholder="https://...">
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="uploadMovieBtn">Upload Movie</button>
+    </form>
+  </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2026 VegaMuse Admin Panel • All Rights Reserved</p>
+  </footer>
+
+  <script src="admin.js"></script>
+</body>
+</html>
