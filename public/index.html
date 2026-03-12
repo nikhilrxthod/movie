@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VegaMuse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="adminIndicator" class="admin-indicator hidden">
+    ADMIN MODE
+    <a href="/admin-logout" onclick="sessionStorage.clear()">Logout</a>
+  </div>
+  <header class="navbar">
+    <a href="?category=home&page=1">
+      <div class="logo">
+        <span class="vega">Vega</span>MUSE
+      </div>
+    </a>
+
+    <nav class="nav-links" id="navMenu">
+      <ul>
+        <li data-category="home">Home</li>
+        <li data-category="4k">4K</li>
+        <li data-category="1080p">1080p</li>
+        <li data-category="dual">Dual Audio</li>
+        <li data-category="english">English</li>
+        <li data-category="imax">IMAX</li>
+      </ul>
+    </nav>
+
+    <div class="search-container">
+      <div class="input-container">
+        <input type="text" id="searchBox" placeholder="Search movies..." autocorrect="off" autocomplete="off">
+        <button id="clear-searchBox">&times;</button>
+      </div>
+      <select id="genreFilter" class="genre-filter">
+        <option value="">All Genres</option>
+      </select>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- <div class="topHead">
+      <span>online streaming</span>
+      <h1>World Best TV Series</h1>
+    </div> -->
+    <div class="movie-grid" id="movieGrid"></div>
+    <div class="pagination" id="pagination"></div>
+  </main>
+
+  <!-- ABOUT PAGE -->
+  <section id="aboutPage" class="about-page hidden-page">
+    <div class="about-container">
+      <h2>About VEGAMUSE</h2>
+      <p>
+        VEGAMUSE is a modern demonstration streaming-style interface designed to showcase high-quality media catalog browsing, responsive layouts, dynamic filtering, and interactive UI components.
+      </p>
+      <h3>Disclaimer</h3>
+      <p>
+        This website is a demonstration project created for UI/UX and frontend development purposes.
+        It does not host or distribute any media content. All data used here is for educational and demonstration purposes only.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT PAGE -->
+  <section id="contactPage" class="about-page hidden-page">
+    <div class="about-container">
+      <h2>Contact Us</h2>
+      <p>
+        We value your feedback and inquiries. Please reach out using the details below.
+      </p>
+      <div class="contact-card">
+        <p><strong>Email:</strong> support+vegamuse@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 VegaMuse | All rights reserved</p>
+    <div class="footer-links">
+      <button id="aboutLink">About</button>
+      <button id="contactLink">Contact Us</button>
+    </div>
+  </footer>
+
+  <!-- FULL SCREEN MOVIE MODAL -->
+  <div id="movieModal" class="fullscreen-modal">
+    <button class="close-btn-fixed" id="closeModal">&times;</button>
+    <div class="fullscreen-content">
+      <h2 id="modalTitle"></h2>
+      <div class="fullscreen-body">
+        <div class="fullscreen-poster">
+          <img id="modalImage" src="">
+        </div>
+        <div class="fullscreen-details">
+          <p id="modalMeta"></p>
+          <p id="modalDescription"></p>
+          <div id="technicalGrid" class="technical-grid"></div>
+          
+          <div class="mobile-preview-section">
+            <h3 class="preview-title">Movie's Preview</h3>
+            <div id="mobileScreenshot" class="mobile-screenshot"></div>
+          </div>
+          <div id="downloadContainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

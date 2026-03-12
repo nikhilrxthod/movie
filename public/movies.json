@@ -1,0 +1,440 @@
+[
+  {
+    "id": "1772943819597",
+    "title": "Morbius",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "IMAX",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 11:55:21 am",
+    "qualities": [
+      "480p",
+      "1080p",
+      "4K"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773123921602/1773123921614-movie-2.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "a"
+      },
+      {
+        "buttonName": "1080P",
+        "size": "1GB",
+        "link": "b"
+      },
+      {
+        "buttonName": "2160P",
+        "size": "4GB",
+        "link": "c"
+      },
+      {
+        "buttonName": "IMAX",
+        "size": "8GB",
+        "link": "d"
+      },
+      {
+        "buttonName": "RUMUX",
+        "size": "15GB",
+        "link": "e"
+      }
+    ]
+  },
+  {
+    "id": "1773124173116",
+    "title": "Moon Knight",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 11:59:33 am",
+    "qualities": [
+      "480p",
+      "720p"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773124173116/1773124173119-series-1.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ],
+    "hidden": false
+  },
+  {
+    "id": "1773124221849",
+    "title": "Halo",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 12:00:21 pm",
+    "qualities": [
+      "480p",
+      "1080p"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773124221849/1773124221851-series-2.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773124429324",
+    "title": "The Northman",
+    "year": 2022,
+    "genre": "Drama",
+    "edition": "IMAX",
+    "dualAudio": true,
+    "uploadTime": "10/3/2026, 12:07:56 pm",
+    "qualities": [
+      "480p",
+      "1080p",
+      "4K"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773124429324/1773124429325-upcoming-1.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ],
+    "hidden": false
+  },
+  {
+    "id": "1773124491741",
+    "title": "Death On The Nile",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 12:04:51 pm",
+    "qualities": [
+      "480p",
+      "720p",
+      "1080p"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773124491741/1773124491742-movie-7.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ],
+    "hidden": false
+  },
+  {
+    "id": "1773124585545",
+    "title": "Viking Valhalla",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "IMAX",
+    "dualAudio": true,
+    "uploadTime": "10/3/2026, 12:06:25 pm",
+    "qualities": [
+      "4K"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773124585545/1773124585547-series-3.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ],
+    "hidden": false
+  },
+  {
+    "id": "1773129777413",
+    "title": "Money Heist",
+    "year": 2022,
+    "genre": "Drama",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 1:32:57 pm",
+    "qualities": [
+      "480p",
+      "360p",
+      "1080p",
+      "4K"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "poster": "images/posters/1773129777413/1773129777414-series-4.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ],
+    "hidden": false
+  },
+  {
+    "id": "1773129816607",
+    "title": "Batman",
+    "year": 2022,
+    "genre": "Drama",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 1:33:36 pm",
+    "qualities": [
+      "480p",
+      "1080p",
+      "4K"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773129816607/1773129816610-movie-5.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132021120",
+    "title": "Sonic",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:10:21 pm",
+    "qualities": [
+      "480p",
+      "720p",
+      "1080p"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773132021120/1773132021122-movie-1.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132059381",
+    "title": "The Adam Project",
+    "year": 2022,
+    "genre": "Drama",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:10:59 pm",
+    "qualities": [
+      "480p"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773132059381/1773132059382-movie-3.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132087867",
+    "title": "Free Guy",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:11:27 pm",
+    "qualities": [
+      "480p",
+      "720p"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773132087867/1773132087873-movie-4.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132122346",
+    "title": "Uncharted",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:12:02 pm",
+    "qualities": [
+      "480p",
+      "720p",
+      "4K"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "poster": "images/posters/1773132122346/1773132122348-movie-6.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132157350",
+    "title": "The Kings Man",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:12:37 pm",
+    "qualities": [
+      "Blue Ray"
+    ],
+    "languages": [
+      "English"
+    ],
+    "poster": "images/posters/1773132157350/1773132157351-movie-8.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132231833",
+    "title": "Doctor Strange - Multiverse Of Madness",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:13:51 pm",
+    "qualities": [
+      "480p",
+      "720p",
+      "1080p",
+      "4K",
+      "Blue Ray"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "poster": "images/posters/1773132231833/1773132231834-upcoming-2.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132260070",
+    "title": "Memory",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "Standard",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:14:20 pm",
+    "qualities": [
+      "480p",
+      "720p"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "poster": "images/posters/1773132260070/1773132260071-upcoming-3.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  },
+  {
+    "id": "1773132324682",
+    "title": "The Unbearable Weight Of Massive Talent",
+    "year": 2022,
+    "genre": "Action",
+    "edition": "IMAX",
+    "dualAudio": false,
+    "uploadTime": "10/3/2026, 2:15:24 pm",
+    "qualities": [
+      "1080p",
+      "4K"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "poster": "images/posters/1773132324682/1773132324683-upcoming-4.png",
+    "screenshots": [],
+    "downloads": [
+      {
+        "buttonName": "480P",
+        "size": "800MB",
+        "link": "http://127.0.0.1:5500/VegaMuse/public/index.html?category=home&page=1"
+      }
+    ]
+  }
+]
